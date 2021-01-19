@@ -16,3 +16,11 @@ read ch
 # switch case to perform
 # calculator operations
 case $ch in
+1)res=`echo $a + $b * $c | bc`
+;;
+2)res=`echo $a * $b + $c | bc`
+;;
+3)res=`echo $c + $a / $b | bc`
+;;
+4)res=`echo $a + $b + $c | bc`
+;;
