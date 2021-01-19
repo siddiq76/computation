@@ -10,4 +10,4 @@ read num3
 echo "Enter choices :"
 echo "1. a + b * c"
 echo "2. a * b + c"
-
+echo "3. c + a / b"
