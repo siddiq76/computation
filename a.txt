@@ -24,3 +24,4 @@ case $ch in
 ;;
 4)res=`echo $a + $b + $c | bc`
 ;;
+esac
